@@ -8,3 +8,7 @@ __Junior Front-end Developer__
 * __E-mail:__ [at1385@yandex.ru](at1385@yandex.ru)
 * __GitHub:__ [at1385](https://github.com/at1385)
 * __Discord:__ Alexander Tikhonov (@at1385)
+
+---
+## About Me
+Hi! My name is Alexander Tikhonov. I'm on the way to becoming a front-end developer. I chose this direction of development because I like to see the visual result of my work. I have some training experience and training internship experience in a small team. Examples of my training projects can be found in the "Experience" section. My goal is to consolidate the existing knowledge and upgrade my skills to achieve the level necessary for commercial development.
