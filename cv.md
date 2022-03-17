@@ -22,3 +22,9 @@ Hi! My name is Alexander Tikhonov. I'm on the way to becoming a front-end develo
 * Gulp
 * VSCode, Atom
 * Figma, Adobe Photoshop, Zeplin, CorelDRAW
+
+---
+## Code Example
+```javascript
+const getProduct = (a, b) => a * b;
+```
