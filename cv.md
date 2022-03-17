@@ -45,3 +45,8 @@ const getProduct = (a, b) => a * b;
 * __JavaScript Manual on [learn.javascript.ru](learn.javascript.ru)__ (in progress)
 * __RS Schools Course «JavaScript/Front-end Development»:__
   * __«Stage 0. Prep-Сourse»__ (in progress)
+
+---
+## Languages
+* __Russian__ - Native
+* __English__ - Elementary (A1)
