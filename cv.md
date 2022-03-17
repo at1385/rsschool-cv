@@ -28,3 +28,10 @@ Hi! My name is Alexander Tikhonov. I'm on the way to becoming a front-end develo
 ```javascript
 const getProduct = (a, b) => a * b;
 ```
+
+---
+## Experience
+* [«Smart Device»](https://github.com/at1385/smart-device)
+* [«Fitness»](https://github.com/at1385/fitness)
+* [«Escape Room Quests»](https://github.com/at1385/escape-room-quests)
+* [«Keksobooking»](https://github.com/at1385/672221-keksobooking-22)
