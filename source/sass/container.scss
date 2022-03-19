@@ -1,4 +1,18 @@
 .container {
-  max-width: 1920px;
+  max-width: $desktop-max-width;
+  padding: 0 40px;
   margin: 0 auto;
+}
+
+@media (max-width: $tablet-max-width) {
+  .container {
+    max-width: $tablet-max-width;
+  }
+}
+
+@media (max-width: $mobile-middle-width) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
