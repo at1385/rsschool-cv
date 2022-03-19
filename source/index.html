@@ -6,11 +6,182 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Tikhonov - RS School CV Project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
+    <header class="page-header">
+      <nav class="main-nav container">
+        <ul class="site-menu">
+          <li class="site-menu__item">
+            <a href="#contacts">Contacts</a>
+          </li>
 
+          <li class="site-menu__item">
+            <a href="#about-me">About Me</a>
+          </li>
+
+          <li class="site-menu__item">
+            <a href="#skills">Skills</a>
+          </li>
+
+          <li class="site-menu__item">
+            <a href="#code-example">Code Example</a>
+          </li>
+
+          <li class="site-menu__item">
+            <a href="#experience">Experience</a>
+          </li>
+
+          <li class="site-menu__item">
+            <a href="#education">Education</a>
+          </li>
+
+          <li class="site-menu__item">
+            <a href="#languages">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main container">
+      <h1 class="visually-hidden">RS School CV Project by Alexander Tikhonov</h1>
+
+      <div class="page-main__left-column">
+        <section class="page-main__person person">
+          <h2><span class="person__thin-heading-part">Alexander</span> Tikhonov</h2>
+
+          <div class="person__image">
+            <img src="img/person-photo.jpg" width="200" height="200" alt="Avatar or photo of Alexander Tikhonov">
+          </div>
+
+          <p>Junior Front-end Developer</p>
+        </section>
+
+        <section class="page-main__small-info-block small-info-block" id="contacts">
+          <h2>Contacts</h2>
+
+          <ul class="small-info-block__list">
+            <li class="small-info-block__item small-info-block__item--location">
+              <a href="https://en.wikipedia.org/wiki/Orenburg" target="_blank">Russia, Orenburg</a>
+            </li>
+
+            <li class="small-info-block__item small-info-block__item--email">
+              <a href="mailto:at1385@yandex.ru">E-mail</a>
+            </li>
+
+            <li class="small-info-block__item small-info-block__item--github">
+              <a href="https://github.com/at1385" target="_blank">GitHub</a>
+            </li>
+
+            <li class="small-info-block__item small-info-block__item--discord">
+              <a href="https://discord.gg/gFnRh8Sudg" target="_blank">Discord (@at1385)</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="page-main__small-info-block small-info-block" id="skills">
+          <h2>Skills</h2>
+
+          <ul class="small-info-block__list">
+            <li class="small-info-block__item small-info-block__item--html">HTML5</li>
+            <li class="small-info-block__item small-info-block__item--css">CSS (SASS/SCSS, BEM)</li>
+            <li class="small-info-block__item small-info-block__item--js">JavaScript Basics</li>
+            <li class="small-info-block__item small-info-block__item--git">Git/GitHub</li>
+            <li class="small-info-block__item small-info-block__item--gulp">Gulp</li>
+            <li class="small-info-block__item small-info-block__item--ide">VSCode, Atom</li>
+            <li class="small-info-block__item small-info-block__item--graphic">Figma, Adobe Photoshop, Zeplin, CorelDRAW</li>
+          </ul>
+        </section>
+
+        <section class="page-main__small-info-block small-info-block" id="languages">
+          <h2>Languages</h2>
+
+          <ul class="small-info-block__list">
+            <li class="small-info-block__item small-info-block__item--russian"><b>Russian</b> - Native</li>
+            <li class="small-info-block__item small-info-block__item--english"><b>English</b> - Elementary (A1)</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="page-main__right-column">
+        <section class="page-main__large-info-block large-info-block" id="about-me">
+          <h2>About Me</h2>
+
+          <p>
+            Hi! My name is Alexander Tikhonov. I'm on the way to becoming a front-end developer. I chose this direction of development because I like to see the visual result of my work. I have some training experience and training internship experience in a
+            small team. Examples of my training projects can be found in the "Experience" section. My goal is to consolidate the existing knowledge and upgrade my skills to achieve the level necessary for commercial development.
+          </p>
+        </section>
+
+        <section class="page-main__large-info-block large-info-block" id="code-example">
+          <h2>Code Example</h2>
+
+          <code>const getProduct = (a, b) => a * b;</code>
+        </section>
+
+        <section class="page-main__large-info-block large-info-block" id="experience">
+          <h2>Experience</h2>
+
+          <ul class="large-info-block__list">
+            <li class="large-info-block__item">
+              <a href="https://github.com/at1385/smart-device" target="_blank">«Smart Device»</a>
+            </li>
+
+            <li class="large-info-block__item">
+              <a href="https://github.com/at1385/fitness" target="_blank">«Fitness»</a>
+            </li>
+
+            <li class="large-info-block__item">
+              <a href="https://github.com/at1385/escape-room-quests" target="_blank">«Escape Room Quests»</a>
+            </li>
+
+            <li class="large-info-block__item">
+              <a href="https://github.com/at1385/672221-keksobooking-22" target="_blank">«Keksobooking»</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="page-main__large-info-block large-info-block" id="education">
+          <h2>Education</h2>
+
+          <ul class="large-info-block__list">
+            <li class="large-info-block__item">
+              <h3>HTML Academy «Profession «Front-end Developer»</h3>
+
+              <dl>
+                <dt>Course «Professional HTML & CSS, level 1. Professional Website Layout»</dt>
+                <dd>successfully completed the workshop and defended the graduation project</dd>
+
+                <dt>Course «Professional HTML & CSS, level 2. Adaptive Layout and Automation»</dt>
+                <dd>successfully completed the workshop and defended the graduation project</dd>
+
+                <dt>Course «JavaScript, level 1. Professional Development of Web Interfaces»</dt>
+                <dd>successfully completed the workshop and defended the graduation project</dd>
+              </dl>
+            </li>
+
+            <li class="large-info-block__item">
+              <h3>JavaScript Manuals</h3>
+
+              <dl>
+                <dt><a href="learn.javascript.ru" target="_blank">learn.javascript.ru</a></dt>
+                <dd>in progress</dd>
+              </dl>
+            </li>
+
+            <li class="large-info-block__item">
+              <h3>RS Schools Course «JavaScript/Front-end Development»</h3>
+
+              <dl>
+                <dt>«Stage 0. Prep-Сourse»</dt>
+                <dd>in progress</dd>
+              </dl>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
   </body>
 
 </html>
