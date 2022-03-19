@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 *,
@@ -10,14 +9,19 @@ html {
 }
 
 body {
+  min-height: 100vh;
   margin: 0;
+
+  font-family: "Montserrat", "Arial" sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: black;
 }
 
 img {
   max-width: 100%;
   height: auto;
-
-  object-fit: cover;
 }
 
 a {
