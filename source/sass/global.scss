@@ -12,11 +12,11 @@ body {
   min-height: 100vh;
   margin: 0;
 
-  font-family: "Montserrat", "Arial" sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.25;
-  color: black;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $darkest;
 }
 
 img {
