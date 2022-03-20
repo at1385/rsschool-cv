@@ -1,0 +1,137 @@
+.small-info-block {
+  h2 {
+    padding: 13px;
+    margin: 0;
+    margin-bottom: 32px;
+
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: $lightest;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    background-color: $darkest;
+  }
+}
+
+.small-info-block__list {
+  @include list-reset;
+
+  padding-left: 40px;
+}
+
+.small-info-block__item {
+  padding-left: 50px;
+  margin-bottom: 20px;
+
+  background-repeat: no-repeat;
+  background-size: auto 30px;
+
+  &--location {
+    background-image: url("../img/icon-location.svg");
+    background-position: 5px 0;
+  }
+
+  &--email {
+    background-image: url("../img/icon-email.svg");
+    background-size: 30px auto;
+  }
+
+  &--github {
+    background-image: url("../img/icon-github.svg");
+    background-size: 30px auto;
+  }
+
+  &--discord {
+    background-image: url("../img/icon-discord.svg");
+    background-position: 2px 0;
+  }
+
+  &--html {
+    background-image: url("../img/icon-html.svg");
+    background-position: 2px 0;
+  }
+
+  &--css {
+    background-image: url("../img/icon-css.svg");
+    background-position: 2px 0;
+  }
+
+  &--js {
+    background-image: url("../img/icon-js.svg");
+    background-position: 2px 0;
+  }
+
+  &--git {
+    background-image: url("../img/icon-git.svg");
+  }
+
+  &--gulp {
+    background-image: url("../img/icon-gulp.svg");
+    background-position: 7px 0;
+  }
+
+  &--ide {
+    background-image: url("../img/icon-ide.svg");
+  }
+
+  &--graphic {
+    background-image: url("../img/icon-graphic.svg");
+    background-size: 30px auto;
+  }
+
+  &--russian {
+    background-image: url("../img/icon-russian.svg");
+  }
+
+  &--english {
+    background-image: url("../img/icon-english.svg");
+  }
+
+  a {
+    display: inline-block;
+    padding: 5px;
+
+    line-height: 1;
+    color: inherit;
+  }
+
+  a:hover,
+  a:focus {
+    transform: scale(1.2) translateY(-2px);
+    transition: 0.1s;
+  }
+
+  a:active {
+    outline: none;
+
+    transition: 0s;
+
+    opacity: 0.2;
+  }
+
+  b {
+    font-weight: 700;
+  }
+}
+
+@media (max-width: $mobile-middle-width) {
+  .small-info-block__list {
+    padding-left: 0;
+  }
+
+  .small-info-block__item {
+    background-size: auto 26px;
+
+    &--email {
+      background-size: 26px auto;
+    }
+
+    &--github {
+      background-size: 26px auto;
+    }
+  }
+}

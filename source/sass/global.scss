@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  min-width: 320px;
   margin: 0;
 
   font-family: "Open Sans", "Arial", sans-serif;
@@ -26,4 +26,10 @@ img {
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: $mobile-middle-width) {
+  body {
+    font-size: 16px;
+  }
 }

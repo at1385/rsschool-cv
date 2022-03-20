@@ -1,0 +1,58 @@
+.person {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 356px;
+  margin-right: auto;
+  margin-left: auto;
+
+  h2 {
+    margin: 0;
+    margin-bottom: 4px;
+
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0;
+
+    font-size: 16px;
+  }
+}
+
+.person__thin-heading-part {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.person__image {
+  order: -1;
+  margin-bottom: 15px;
+
+  border: 6px solid $lightest;
+  border-radius: 50%;
+
+  overflow: hidden;
+
+  img {
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: $mobile-middle-width) {
+  .person {
+    h2 {
+      font-size: 37px;
+    }
+  }
+
+  .person__thin-heading-part {
+    font-size: 33px;
+  }
+}
