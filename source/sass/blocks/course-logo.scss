@@ -1,0 +1,27 @@
+.course-logo {
+  display: block;
+
+  line-height: 1;
+
+  &:hover,
+  &:focus {
+    outline-offset: 3px;
+
+    transform: scale(1.1);
+    transition: 0.1s;
+  }
+
+  &:active {
+    outline: none;
+
+    transition: 0s;
+
+    opacity: 0.2;
+  }
+}
+
+@media (max-width: $mobile-middle-width) {
+  .course-logo {
+    align-self: start;
+  }
+}
