@@ -1,13 +1,11 @@
 .site-menu {
+  @include list-reset;
+
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
 
   font-size: 16px;
   line-height: 1;
-
-  list-style: none;
 }
 
 .site-menu__item {
